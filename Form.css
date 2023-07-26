@@ -1,0 +1,63 @@
+
+.form {
+    max-width: 500px;
+    margin: 90px auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid gray;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight:400;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 80%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+
+   .check{
+    display: flex;
+    flex-direction: row;
+   }
+
+
+
+   .accordion {
+    width: 100%;
+  }
+  
+  .add-button {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+    background-color: #eee;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-header.expanded {
+    background-color: #ccc;
+  }
+  
+  .accordion-details {
+    padding: 10px;
+  }
+  
